@@ -230,7 +230,8 @@ body {
 .hero-landing {
     display: flex;
     flex-direction: column;
-    margin: 42px 32px;
+    /* margin: 42px 32px; */
+    padding: 24px 152px;
     z-index: 100;
     justify-content: center;
     text-align: center;

@@ -159,7 +159,9 @@ body {
 
 .hero {
     background: url("./background-large.jpeg");
-    background-repeat: no-repeat;
+    background-size: 125%; /* width 50%, height 75% */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-position: center -15.2rem;
     height: 90vh;
     width: 100vw;
     z-index: 100;
@@ -182,7 +184,7 @@ body {
 .blur-background {
     height: 90vh;
     width: 100vw;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.999) 0, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.99) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.99) 0, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.999) 100%);
     /* background: rgb(0 0 0 / 40%); */
     position: absolute;
     top: 0;
@@ -231,7 +233,7 @@ body {
     display: flex;
     flex-direction: column;
     /* margin: 42px 32px; */
-    padding: 24px 152px;
+    padding: 5px 152px;
     z-index: 100;
     justify-content: center;
     text-align: center;
@@ -356,7 +358,7 @@ select::-ms-expand {
 
 .emailinp {
     height: 3.5rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0.3rem;
     border: 1px solid rgba(255,255,255,0.7);
     width: 27rem;
@@ -411,7 +413,7 @@ select::-ms-expand {
 }
 
 .languageSelect {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     border: none;
     height: 24px;
     color: white;
